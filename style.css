@@ -13,6 +13,8 @@ button {
   font-size: 14px;
   font-weight: 500;
   height: 30px;
+  width: 32%;
+  max-width: 400px;
   vertical-align: baseline;
   user-select: none;
   -webkit-user-select: none;
@@ -30,4 +32,16 @@ button {
   height: 2em;
   margin: 5px;
   border: 1px solid rgb(219, 216, 216);
+}
+
+#feed{
+    background-color: black;
+    color: white;
+}
+
+
+#grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

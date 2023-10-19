@@ -1,0 +1,33 @@
+h1 {
+  font-family: "Lobster Two", sans-serif;
+}
+
+button {
+  background-color: #61b8e3;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 30px;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.signin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textbox {
+  height: 2em;
+  margin: 5px;
+  border: 1px solid rgb(219, 216, 216);
+}
